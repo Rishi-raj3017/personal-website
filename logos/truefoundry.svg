@@ -1,10 +1,12 @@
 <svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <g>
-    <circle cx="15" cy="15" r="8" fill="#00D4AA"/>
-    <circle cx="35" cy="15" r="8" fill="#00D4AA"/>
-    <circle cx="15" cy="35" r="8" fill="#00D4AA"/>
-    <circle cx="35" cy="35" r="8" fill="#00D4AA"/>
-    <path d="M15 23C15 19 19 15 23 15H27C31 15 35 19 35 23V27C35 31 31 35 27 35H23C19 35 15 31 15 27V23Z" fill="#00D4AA"/>
+  <rect x="5" y="10" width="40" height="40" rx="8" fill="#00D4AA" opacity="0.1"/>
+  <g transform="translate(8, 13)">
+    <circle cx="8" cy="8" r="6" fill="#00D4AA"/>
+    <circle cx="26" cy="8" r="6" fill="#00D4AA"/>
+    <circle cx="8" cy="26" r="6" fill="#00D4AA"/>
+    <circle cx="26" cy="26" r="6" fill="#00D4AA"/>
+    <rect x="11" y="11" width="12" height="12" rx="2" fill="#00D4AA"/>
   </g>
-  <text x="60" y="20" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1a1a1a">truefoundry</text>
+  <text x="55" y="25" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1a1a1a">TrueFoundry</text>
+  <text x="55" y="38" font-family="Arial, sans-serif" font-size="10" fill="#666">Cloud-native ML Platform</text>
 </svg> 
