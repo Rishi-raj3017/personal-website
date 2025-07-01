@@ -3,7 +3,7 @@
 A clean, professional personal website showcasing my background, experience, and projects.
 
 ## 🌐 Live Website
-Visit the website at: [GitHub Pages](https://rishiraj1719.github.io/personal-website) or view locally by opening `index.html`
+Visit the website at: [GitHub Pages](https://rishi-raj3017.github.io/personal-website) or view locally by opening `index.html`
 
 ## 📋 Features
 
@@ -25,7 +25,7 @@ Visit the website at: [GitHub Pages](https://rishiraj1719.github.io/personal-web
 ### Local Development
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Rishiraj1719/personal-website.git
+   git clone https://github.com/Rishi-raj3017/personal-website.git
    cd personal-website
    ```
 
@@ -39,7 +39,7 @@ Visit the website at: [GitHub Pages](https://rishiraj1719.github.io/personal-web
 ## 📧 Contact
 
 - **Email**: ddrishiraj17@gmail.com
-- **GitHub**: [@Rishiraj1719](https://github.com/Rishiraj1719)
+- **GitHub**: [@Rishi-raj3017](https://github.com/Rishi-raj3017)
 - **Location**: Assam, India
 
 ## 🎓 Background
