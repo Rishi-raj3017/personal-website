@@ -178,19 +178,24 @@ body {
 }
 
 .highlight-link {
-    color: #1a1a1a;
+    color: #007bff;
     text-decoration: none;
     transition: color 0.3s ease;
     border-bottom: 1px solid #e0e0e0;
 }
 
 .highlight-link:hover {
-    color: #666;
-    border-bottom: 1px solid #1a1a1a;
+    color: #0056b3;
+    border-bottom: 1px solid #007bff;
 }
 
-/* News section */
-.news-section h2 {
+/* Interests section */
+.interests-section {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.interests-section h2 {
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
@@ -199,29 +204,93 @@ body {
     padding-bottom: 0.5rem;
 }
 
+.interest-category {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid #007bff;
+}
 
+.interest-category h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+    color: #1a1a1a;
+}
 
-.news-list {
+.interest-category p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #555;
+}
+
+.interest-summary {
+    margin-top: 1.5rem;
+    padding: 1.2rem;
+    background-color: #e9f7ff;
+    border-radius: 8px;
+    border-left: 4px solid #17a2b8;
+}
+
+.interest-summary p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 0;
+}
+
+/* Outside Work section */
+.outside-work-section {
+    margin-top: 3rem;
+}
+
+.outside-work-section h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #1a1a1a;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 0.5rem;
+}
+
+.outside-work-list {
     list-style: none;
+    padding: 0;
 }
 
-.news-list li {
-    padding: 0.8rem 0;
-    border-bottom: 1px solid #f1f3f4;
-    font-size: 1rem;
-    line-height: 1.6;
+.outside-work-list li {
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid #28a745;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #555;
+    position: relative;
 }
 
-.news-list li:last-child {
-    border-bottom: none;
+.outside-work-list li:last-child {
+    margin-bottom: 0;
 }
 
-.news-list li:before {
+.outside-work-list li:before {
     content: "•";
-    color: #666;
+    color: #28a745;
     font-weight: bold;
-    margin-right: 0.8rem;
+    position: absolute;
+    left: 1rem;
+    top: 1.5rem;
+    font-size: 1.2rem;
 }
+
+.outside-work-list li {
+    padding-left: 2.5rem;
+}
+
+
+
+
 
 /* Experience page styles */
 .page-header {
@@ -428,9 +497,7 @@ body {
         font-size: 1.5rem;
     }
     
-    .news-section h2 {
-        font-size: 1.5rem;
-    }
+
     
 
     
