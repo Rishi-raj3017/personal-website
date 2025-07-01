@@ -168,31 +168,40 @@ body {
 }
 
 .about-section {
-    margin-bottom: 3rem;
+    margin-bottom: 3rem !important;
     font-size: 1.1rem;
     line-height: 1.8;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #e9ecef;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
 .about-section p {
     margin-bottom: 1.5rem;
+    text-align: justify;
 }
 
 .highlight-link {
-    color: #007bff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-    border-bottom: 1px solid #e0e0e0;
+    color: #007bff !important;
+    text-decoration: none !important;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    border-bottom: 1px solid #007bff !important;
+    font-weight: 500;
 }
 
 .highlight-link:hover {
-    color: #0056b3;
-    border-bottom: 1px solid #007bff;
+    color: #0056b3 !important;
+    border-bottom: 2px solid #0056b3 !important;
+    text-decoration: none !important;
 }
 
 /* Interests section */
 .interests-section {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+    clear: both;
 }
 
 .interests-section h2 {
@@ -205,31 +214,47 @@ body {
 }
 
 .interest-category {
-    margin-bottom: 2rem;
-    padding: 1.5rem;
-    background-color: #f8f9fa;
-    border-radius: 8px;
-    border-left: 4px solid #007bff;
+    margin-bottom: 2rem !important;
+    padding: 1.5rem !important;
+    background-color: #f8f9fa !important;
+    border-radius: 8px !important;
+    border-left: 4px solid #007bff !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.interest-category:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
 .interest-category h3 {
     font-size: 1.3rem;
     margin-bottom: 0.8rem;
     color: #1a1a1a;
+    margin-top: 0;
 }
 
 .interest-category p {
     font-size: 1.05rem;
     line-height: 1.7;
     color: #555;
+    margin-bottom: 0;
 }
 
 .interest-summary {
-    margin-top: 1.5rem;
-    padding: 1.2rem;
-    background-color: #e9f7ff;
-    border-radius: 8px;
-    border-left: 4px solid #17a2b8;
+    margin-top: 1.5rem !important;
+    padding: 1.2rem !important;
+    background-color: #e9f7ff !important;
+    border-radius: 8px !important;
+    border-left: 4px solid #17a2b8 !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.interest-summary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
 .interest-summary p {
@@ -241,7 +266,8 @@ body {
 
 /* Outside Work section */
 .outside-work-section {
-    margin-top: 3rem;
+    margin-top: 3rem !important;
+    clear: both;
 }
 
 .outside-work-section h2 {
@@ -254,20 +280,29 @@ body {
 }
 
 .outside-work-list {
-    list-style: none;
-    padding: 0;
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0;
 }
 
 .outside-work-list li {
-    margin-bottom: 1.5rem;
-    padding: 1.5rem;
-    background-color: #f8f9fa;
-    border-radius: 8px;
-    border-left: 4px solid #28a745;
+    margin-bottom: 1.5rem !important;
+    padding: 1.5rem !important;
+    padding-left: 2.5rem !important;
+    background-color: #f8f9fa !important;
+    border-radius: 8px !important;
+    border-left: 4px solid #28a745 !important;
     font-size: 1.05rem;
     line-height: 1.7;
     color: #555;
     position: relative;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.outside-work-list li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
 .outside-work-list li:last-child {
@@ -282,10 +317,6 @@ body {
     left: 1rem;
     top: 1.5rem;
     font-size: 1.2rem;
-}
-
-.outside-work-list li {
-    padding-left: 2.5rem;
 }
 
 
@@ -503,5 +534,30 @@ body {
     
     .about-section {
         font-size: 1rem;
+        padding: 1rem;
+    }
+    
+    .interest-category {
+        padding: 1rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+    
+    .interest-category h3 {
+        font-size: 1.1rem;
+    }
+    
+    .interest-summary {
+        padding: 1rem !important;
+    }
+    
+    .outside-work-list li {
+        padding: 1rem !important;
+        padding-left: 2rem !important;
+        font-size: 1rem;
+    }
+    
+    .outside-work-list li:before {
+        left: 0.8rem;
+        top: 1rem;
     }
 } 
